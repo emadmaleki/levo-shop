@@ -1,0 +1,41 @@
+.mobilesSlide{
+    height: auto;
+    min-height: 500px;
+}
+.mobilesSlide-title{
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+    color: var(--red);
+    margin-bottom: 45px;
+}
+.fs-filter{
+    width: 100%;
+    height: 70px;
+    margin: 0 auto;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 5px;
+    border: 1px solid rgba(24, 24, 24, 0.13);
+    border-right: 2px solid var(--red);
+    padding: 0 30px;
+    overflow: auto;
+}
+.fs-cat{
+    min-width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    color: rgb(31, 31, 31);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+.fs-cat.active{
+    background-color: var(--red);
+    color: var(--white);
+}

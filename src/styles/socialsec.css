@@ -1,0 +1,35 @@
+.socialSec {
+  width: 100%;
+  padding: 30px 0;
+  background-color: var(--red);
+  border-radius:2px 2px 50px 50px;
+}
+.socialsec-title{
+    color: white;
+    font-family: cursive;
+    font-size: 30px;    
+    text-align: center;
+}
+.socials{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.social{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--white);
+    font-size: 19px;
+    transition: all 0.5s ease-out;
+    color:var(--white);
+    background-color: var(--red);
+}
+.social:hover{
+    color:var(--red);
+    background-color: var(--white);
+}

@@ -1,0 +1,253 @@
+.mobileDetail{
+    padding: 50px 0;
+    background:url('./../assets/images/shape.png');
+    background-size: 1000px;
+    background-repeat: no-repeat;
+}
+.fd-images{
+    text-align: center;
+}
+.fd-main-img{
+    max-width: 450px;
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    animation: img 0.5s linear forwards;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.059);
+}
+@keyframes img {
+    0%{
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.fd-list-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 10px;
+}
+.fd-listItem-img{
+    border: 1px solid rgba(32, 32, 32, 0.127);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.fd-listItem-img img{
+    max-width: 100px;
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.fd-colors{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+.fd-color.active{
+    border: 3px solid rgb(168, 168, 168);
+}
+.fd-color{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 100px;
+}
+.fd-content{
+    position: relative;
+    margin-top: 70px;
+}
+.fd-title{
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: rgb(59, 59, 59);
+}
+.fd-category{
+    font-size: 15px;
+    margin-bottom: 30PX;
+}
+.fd-category span{
+    padding: 6px 10px;
+    color: white;
+    background-color: var(--red);
+    border-radius: 5px;
+}
+.fd-cart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 100px;
+    border-radius: 10px;
+    padding: 0 30px;
+    background:linear-gradient(135deg,#ff0077,#d60056);
+    backdrop-filter:blur(15px);
+}
+.fd-price{
+    color: white;
+    font-size: 18px;
+}
+.fd-price span{
+    font-weight: 700;
+}
+.fd-addtocart{
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: rgb(34, 34, 34);
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.fd-info{
+    background-color: rgba(255, 255, 255, 0.344);
+    padding: 50px 10px;
+    border: 1px solid rgba(32, 32, 32, 0.127);
+    border-radius: 10px;
+    backdrop-filter:blur(15px);
+}
+.fd-desc{
+    line-height: 23px;
+    font-size: 14px;
+}
+.fdc-form{
+    margin-top: 10px;
+}
+.fdc-inp{
+    max-width: 800px;
+    width: 100%;
+    border: 1px solid var(--red);
+    border-radius: 10px;
+    background-color: transparent;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.fdc-title{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.fdc-subtitle{
+    font-size: 14px;
+    text-align: justify;
+    color: #1b1b1ba4;
+    line-height: 23px;
+}
+.fdc-submit{
+    padding: 8px 30px;
+    border-radius: 5px;
+    background-color: var(--red);
+    color: white;
+}
+.fdc-item{
+    width: 100%;
+    padding: 30px 20px;
+    border: 1px solid #1e1e1e18;
+    border-radius: 10px;
+    margin-bottom: 20PX;
+}
+.fdc-item-header{
+    margin-bottom: 20px;
+}
+.fdc-user{
+    color: var(--red);
+    font-size: 16px;
+    display: inline;
+    margin-right: 20px;
+}
+.fdc-date{
+    font-size: 13px;
+    color:#1e1e1e52 ;
+}
+.fdc-body{
+    font-size: 13px;
+    color: rgb(58, 58, 58);
+}
+.fd-comments{
+}
+.fd-select-ram{
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+}
+.fd-option-ram{
+    width: 80px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 2px solid var(--red);
+    border-radius: 5px;
+    color: var(--black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+.fd-option-ram.active{
+    background-color: var(--red);
+    color: var(--white);
+}
+.fd-config-table-container{
+    overflow-x: auto;
+}
+.fd-config-table{
+    border-radius: 5px;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    min-width: 800px;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+.fd-config-table thead{
+   height: 50px;
+   background-color: var(--red);
+   color: white;
+   text-align: center;
+}
+.fd-config-table tbody{
+    background-color: rgb(254, 228, 228);
+}
+.fd-config-table tbody td{
+    text-align: center;
+    padding: 20px 0 !important;
+}
+.fd-like{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color:rgba(20, 20, 20, 0.375);
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    font-size: 22px;
+}
+.fd-like:hover{
+    color: var(--red);
+}
+.fd-like-active{
+    color: var(--red);
+
+}
+.notFind-box{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nf-box{
+    font-size: 30px;
+    font-family: cursive;
+    color: var(--red);
+}

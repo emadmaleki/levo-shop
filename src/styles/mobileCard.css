@@ -1,0 +1,72 @@
+.mobileCard{
+    width: 100%;
+    border:1px solid rgba(18, 18, 18, 0.058);
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.085);
+    margin-top: 80px;
+    position: relative;background-color: white;
+}
+
+.slick-slide {
+  margin: 0 5px;
+}
+.mobileCard-img{
+    margin: 0 auto;
+    width: 150px;
+    height: 140px;
+    object-fit: contain;
+    margin-top: -80px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.085);
+}
+.mobileCard-name{
+    font-size: 18px;
+    margin-top: 10px;
+    display: block;
+}
+.mobileCard-footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.mobileCard-price{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--red);
+}
+.mobileCard-addtocart{
+    background-color: var(--red);
+    color: var(--white) !important;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+}
+.fdr-title{
+    color: var(--black);
+    font-size: 30px;
+    margin-bottom: 20px; 
+    border-right: 2px solid var(--red);
+    display: inline;
+    padding: 0 20px;
+}
+.mobileCart-like{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 20px;cursor: pointer;
+    color: #1a1a1a4f;
+    transition: all 0.2s linear;
+}
+.mobileCart-like:hover{
+    color: var(--red);
+}
+.mobileCart-like.active{
+    color: var(--red);
+
+}

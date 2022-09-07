@@ -1,0 +1,46 @@
+.intro-slider-item{
+    width: 100%;
+    height: 500px ;
+}
+.intro-slider-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.products_slider{
+    margin-top: 100px;
+    width: 100%;
+    padding: 50px 0;
+    border-radius: 0px 0px 30px 30px;
+    background: linear-gradient(135deg,var(--red),rgb(255, 90, 90));
+}
+.products-slider-title{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 45px;
+    text-align: center;
+    font-weight: 300;
+}
+.levo-banners{
+    margin-top: 30px;
+}
+.l-banner{
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.l-banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+@media screen and (max-width : 500px) {
+    .intro-slider-item{
+        height: 300px;
+    }
+    .intro-slider-item img{
+        object-fit: fill;
+    }
+}

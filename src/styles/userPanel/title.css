@@ -1,0 +1,11 @@
+.ump-title{
+    text-align: left;
+    color: var(--black);
+    border-left: 3px solid var(--red);
+    padding: 8px 20px;
+    margin-bottom: 30px;
+  }
+  .ump-title h2{
+    font-size: 21px;
+    font-weight: 100;
+  }

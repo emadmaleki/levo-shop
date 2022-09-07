@@ -1,0 +1,29 @@
+.filterPanel{
+    padding: 20px 10px;
+    border: 1px solid rgba(26, 26, 26, 0.092);
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    position: sticky;
+    top: 20px;
+    left: 0;
+}
+.fp-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.fp-title{
+    font-size: 18px;
+    font-weight: 100;
+    color: rgba(26, 26, 26, 0.784);
+}
+.filter-labels{
+    margin-bottom: 8px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.332);
+}
+.filter-sec{
+    margin: 15px 0;
+}

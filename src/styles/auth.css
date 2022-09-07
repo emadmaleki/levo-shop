@@ -1,0 +1,96 @@
+
+.register{
+    background-color: var(--red);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .backHome{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width:50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 15px 3px rgba(29, 29, 29, 0.484);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 105px;
+    z-index: 15;
+  }
+  .backHome:hover{
+    background-color: var(--red);
+    color: white;
+    border: 2px solid white;
+    box-shadow: none;
+  }
+  .register-form{
+    max-width: 500px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top:0px;
+    padding: 70px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.212);
+    text-align: center;
+    position: relative;
+  }
+  .register-form h2{
+    margin-bottom: 30px;
+  }
+  .register-form-submit{
+    width: 150px;
+    height: 43px;
+    border-radius: 5px;
+    background-color: var(--red);
+    color: white;
+    font-size: 18px;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+  .go_sign{
+    position: absolute;
+    top: -15px;
+    left: -30px;
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    background-color: var(--white);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.212);
+    color: var(--red);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: all 0.5s;
+  }
+  .go_sign:hover{
+    color: white;
+    background-color: var(--red);
+  } 
+  .form-control{
+    width: 100%;
+    height: 45px;
+    border: 1px solid #1b1b1b26;
+    border-radius: 5px;
+    padding: 0 20px;
+    margin-bottom: 15px;
+  }
+  .err{
+    width: 100%;
+    height: 50px;
+    border-radius:10px;
+    border: 2px solid #ff0d00;
+    color:#fff ;
+    background-color: #ff0d006f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    font-size: 14px;
+  }

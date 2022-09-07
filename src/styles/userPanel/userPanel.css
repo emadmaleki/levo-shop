@@ -1,0 +1,195 @@
+.up-sidebar {
+  border: 1px solid #2121211f;
+  padding: 30px 20px;
+  border-radius: 8px;
+}
+.up-main{
+  padding: 10px;
+}
+.ups-header {
+  text-align: center;
+  border-bottom: 1px solid #2121211f;
+  padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.ups-avatar {
+  margin-bottom: 20px;
+  width: 80px;
+  height: 80px;
+  border-radius: 200px;
+  object-fit: cover;
+  border: 1px solid rgba(27, 27, 27, 0.168);
+  box-shadow: 0px 0px 10px 0px rgba(32, 32, 32, 0.167);
+}
+.ups-name {
+  font-size: 15px;
+  color: var(--black);
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+.ups-email {
+  font-size: 13px;
+  color: #21212182;
+  margin-bottom: 5px;
+}
+.ups-phone {
+  font-size: 12px;
+  color: #2121216f;
+}
+.up-menu {
+}
+.up-menu-item {
+  margin-bottom: 10px;
+}
+.up-menu-item a {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  height: 100%;
+  align-items: center;
+  padding: 15px 20px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+.up-menu-item a p {
+  margin-top: 2px;
+}
+
+.up-menu-item.active a {
+  color: white !important;
+  background: linear-gradient(45deg, var(--red), rgb(255, 53, 53));
+}
+.userMainPanel{
+  border: 1px solid #2121211f;
+  min-height: 500px;
+  padding: 20px;
+  border-radius: 8px;
+}
+.ump-title{
+  text-align: left;
+  color: var(--black);
+  border-left: 3px solid var(--red);
+  padding: 8px 20px;
+  margin-bottom: 30px;
+}
+.ump-title h2{
+  font-size: 21px;
+  font-weight: 100;
+}
+.upm-text{
+  font-size: 15px;
+  color: rgba(34, 34, 34, 0.581);
+  margin-bottom: 20px;
+}
+.upm-text span{
+  font-weight: 600;
+  color: var(--red);
+}
+.ump-info-box{
+  display: flex;
+  width: 100%;
+  gap: 30px;
+  align-items: center;
+  height: 100px;
+  padding: 0 20px;
+  border-radius: 10px;
+  border: 2px solid var(--red);
+  background-color: var(--red);
+}
+.umpi-body{
+  text-align: center;
+}
+.umpi-icon{
+  font-size: 50px;
+  color: rgba(255, 255, 255, 0.468);
+}
+.umpi-body p{
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.582);
+  text-align: left;
+}
+.umpi-count{
+  font-size: 35px;
+  color: var(--white);
+}
+.ticket{
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #2121211f;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.ticket-header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  align-items: center;
+  height: 30px;
+  border-bottom: 1px solid #2121210f;
+}
+.ticket-title{
+  font-size: 15px;
+  color: var(--red);
+}
+
+.ticket-date{
+  font-size: 13px;
+  color: rgba(22, 22, 22, 0.329);
+
+}
+.ticket-desc{
+  font-size: 12px;
+  text-align: justify;
+  color: rgba(22, 22, 22, 0.795);
+}
+.tickets-create{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-bottom: 20px;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  background-color:var(--red) !important;
+  color: white !important;
+}
+.ticket-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ margin-top: 20px;
+  width: 100%;
+}
+.trash-icon{
+  color: var(--red);
+  font-size: 17px;
+    cursor: pointer;
+}
+.ticket-setting{
+  display: flex;
+  gap: 10px;
+}
+.edit-icon{
+  color: rgb(7, 99, 7);
+  font-size: 17px;
+    cursor: pointer;
+}
+.user-info{
+  border: 1px solid rgba(27, 27, 27, 0.168);
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 100px;
+}
+.user-info-img{
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: -80px auto 30px auto;
+  display: block;
+  box-shadow: 0px 0px 10px 0px rgba(32, 32, 32, 0.167);
+
+}

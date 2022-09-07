@@ -1,0 +1,139 @@
+.intro-title{
+    font-size: 35px;
+    font-weight: 900;
+    font-family: cursive;
+}
+
+.intro{
+    width: 100%;
+}
+.categories{
+    background:linear-gradient(130deg,#ff0040,#ff4885,#ff0040);
+    padding: 40px 0;
+}
+.cat_card{
+    text-align: center;
+    margin: 10px 0;
+    gap: 20px;
+    transition: all 0.5s ease-out;
+}
+.cat_img{
+    font-size: 60px;
+    color: white;
+}
+.cat_card:hover{
+    transform: translateY(-10px);
+}
+.trait-item{
+    text-align: center;
+}
+.trait-item img{
+    width: 100px;
+    margin-bottom: 10px;
+}
+.trait-item h4{
+    font-size: 30px;
+    color: var(--black);
+    margin-bottom: 10px;
+}
+.trait-item p{
+    color: #1a1a1a6c;
+    width: 300px;
+    margin: 0 auto;
+    font-size: 13px;
+    line-height: 20px;
+}
+.traits{
+    text-align: center;
+}
+.traits .traits-title{
+    font-size: 30px;
+    color: var(--red);
+    margin-bottom: 15px;
+}
+.traits .traits-subtitle{
+
+    color: #1a1a1a6c;
+    font-size: 13px;
+    margin-bottom: 50px;
+}
+.why-img{
+    text-align: center;
+}
+.why-img img{
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+}
+.why-content{
+    margin-top: 30px;
+}
+.why-title{
+    text-align: center;
+    font-size: 30px;
+    color: var(--red);
+    margin-bottom: 50px;
+}
+.why-subtitle{
+    color: #1a1a1a6c;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 30px;
+}   
+
+.why-box-item{
+    padding: 10px;
+    border-right: 3px solid rgb(255, 10, 10);
+    margin: 10px 0;
+}
+
+.why-box-item h4{
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #1a1a1ad3;
+}
+.why-box-item h4 path{
+    color: var(--red);
+    font-size: 14px;
+    
+}
+.why-box-item p{
+    font-size: 12px;
+    line-height: 20px;
+    color: #1a1a1a81;
+}
+.rc-box{
+    border: 1px solid #1a1a1a19;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.rc-author img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.rc-text{
+    font-size: 14px;
+    margin-bottom: 50px;
+    color: #1a1a1ace;
+    line-height: 20px;
+}
+.rc-a-name{
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: var(--black);
+}
+.rc-a-job{
+    font-size: 13px;
+    color: #1a1a1a78;
+
+}
+.rc-author{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
